@@ -89,3 +89,26 @@ Since we validate our trained model, we can send it to "production", and the man
 - Step 08. Convert Model Performance to Business Values: In this step the model were analyzed from a business perpective, translating the errors into business values.
 
 - Step 09. Deploy Model to Production: The model were deployed on a cloud environment to make possible that other stakeholders and services access its results.
+
+# 4. Conclusion From Model Training
+We were also curious about the total dataset (including sales= 0 rows). So we trained model using various algorithns and we got accuracy near about 92%.
+
+We came to conclusion that removing sales= 0 rows actually removes lot of information from dataset as it has 172817 rows which is large and therefore we decided not to remove those values. We got our best RMPSE score from Random Forest model, we tried taking an optimum parameter so that our model doesn't overfit.
+
+# Conclution from EDA
+
+1) From plot sales competition open since month shows sales increasing from november and highest in month december.
+
+2) From plot sales and a day of week, sales highest on monday and start declining from tuesday to saturday and on sundaysales almost near to zero.
+
+3) Plot between promotion and sales shows that promotion helps in increasing sales.
+
+4) Type of store place an important role in opening pattern of stores.
+
+5) All type 'b' stores never closed except for refurbishment or other reason.
+
+6) All type 'b' stores have comparitivly higher sales and it mostly constant with peaks appears on week ends.
+
+7) Assortment level 'b' is only offered at store tybe 'b'.
+
+8) We can observe that most of the stores remained closed during state holidays but it is interesting to note that the number of stores opened during school holidays were more than that were opened during state holidays.
